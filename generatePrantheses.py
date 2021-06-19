@@ -4,6 +4,8 @@
 # Back Tracking
 
 from typing import List
+import sys
+sys.setrecursionlimit(5000000)
 
 
 def generateParenthesis(n: int) -> List[str]:
@@ -27,4 +29,4 @@ def generateParenthesis(n: int) -> List[str]:
     return res
 
 
-generateParenthesis(2)
+print(generateParenthesis(3))

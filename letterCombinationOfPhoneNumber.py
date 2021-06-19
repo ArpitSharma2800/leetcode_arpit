@@ -34,4 +34,4 @@ def letterCombinations(digits: str) -> List[str]:
     return result
 
 
-print(letterCombinations("23"))
+print(letterCombinations("9928926428"))
